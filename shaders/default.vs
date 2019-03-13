@@ -8,5 +8,6 @@ uniform mat4 view;
 
 void main () {
 
-    gl_Position = view * model * vec4 (position, 1.0);
+    vec4 tmp4 = view * model * vec4 (position, 1.0);
+    gl_Position = tmp4;
 }
