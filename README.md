@@ -1,5 +1,4 @@
 # arcanoid
 arcanoid game
 
-
-changed main file by addition oop
+compile and play.
